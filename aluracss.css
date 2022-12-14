@@ -1,0 +1,110 @@
+/* Zera o código */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+}
+/* HTML */
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #000000;
+	color: white;
+}
+header {
+	background: #6f6c79;
+}
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+footer {
+	text-align: center;
+	color: #000000;
+}
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+/*css da página Inicial */
+.barba{
+	position: relative;
+}
+.barba, .banner {
+	width: 100%;
+	height: 600px;
+}
+.logo{
+	width: 100px;
+	height: 150px;
+}
+
+/* Formulario */
+.formulario{
+	position: absolute;
+	display: grid;
+}
+.sectionFormulario{
+	display: grid;
+	align-items: center;
+	justify-items: center;
+}
+.input{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    
+    background: #3d3c3d;
+	color: white;
+	
+    border-radius: 10px;
+    border: none;
+}
+.hiperlink{
+    color: rgb(224, 115, 115);
+}
+.telaLogin{
+    margin-top: 1%;
+}
+.botao{
+    width: 191px;
+    height: 24px;
+    margin-top: 1%;
+    padding: 0.5% 0;
+
+    background-color: rgb(179, 84, 84);
+    border-radius: 1em;
+    border: none;
+}
+.divBotao, .checkbox{
+    margin: 1%;
+}
+.menuLocalizacao{
+	color: #C78C19;
+	text-decoration: underline;
+}
+#bodyHome{
+	background-color: #6f6c79;
+}
+
+/* Analise */
+
